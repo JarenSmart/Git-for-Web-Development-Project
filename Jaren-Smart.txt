@@ -66,19 +66,50 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
     23. How do you select all links within a div with the class of sidebar?
         .sidebar a:link
     24. What is a pseudo selector?
+        A pseudo selector is a keyword added that specifies a special state for said element. e.g. :hover
     25. What do we use the change the spacing between lines?
+        line-height:
     26. What do we use to change the spacing between letters?
+        letter-spacing:
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform: uppercase;
+        text-transform: lowercase;
+        text-transform: capitalize;
     28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
+        border: 1px dotted black;
+    29. How do I select everything on the page?
+        * {
+
+        }
     30. How do I write a comment in CSS?
+        /* */
     31. How do I find out what file I am in, when I am using the command line? 
+        pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
+        ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+        - rm (file name)
+        - This permanently deletes the file and anything in it. Knowing what file you're in
+            or what exactly you're deleting is paramount.
+    34. Why should I use version control?
+        Using version control allows you to easily compare files, identify differences, and merge 
+            before commiting any code.
     35. How often should I commit to github?
+        Every 30 minutes of real work should be pushed so it is not lost.
     36. What is the command we would use to push our repo up to github? 
+        git push -u origin Jaren-Smart
     37. Walk me through Lambda's git flow. 
+        - Fork desired repository
+        - add TL as a contributor
+            (Setting->Collaborators->Add collaborator)
+        - clone repo onto your machine
+            (git clone <your-repo>)
+        - Create your own branch
+            (cd <repo directory>)
+            (git checkout -b Jaren-Smart)
+        -Push any changes made to your own branch
+            (git push -u origin Jaren-Smart)
+        -Add TL as reviewer on the pull request
 
 Stretch Questions
 
